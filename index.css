@@ -21,16 +21,14 @@
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    width: 100vw;
-    height: 100vh;
+
   }
 
 .intro-story {
     font-size: 1.5em;
     font-weight: bold;
     white-space: pre;
-    width: 100vw;
-    height: 100vh;
+
 }
   
 html, button {
