@@ -3,7 +3,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
-    word-break:break-all;
+    overflow: auto;
 }
 
 .intro-wrap::after {          
@@ -16,14 +16,14 @@
     background: darkgreen;
     opacity: 0.2;
     z-index: -1;
-    word-break:break-all;
+    overflow: auto;
 }
 
 .intro {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    word-break:break-all;
+    overflow: auto;
   }
 
 .intro-story {
@@ -201,7 +201,7 @@ main {
     position: relative;
     width:100vw;
     height:100vh;
-    word-break:break-all;
+    overflow: auto;
 }
   
 .result-wrap::after {
@@ -214,7 +214,7 @@ main {
     background: red;
     opacity: 0.1;
     z-index: -1;
-    word-break:break-all;
+    overflow: auto;
 }
 
 .result {
@@ -224,5 +224,5 @@ main {
     white-space: pre;
     font-size: 1.2em;
     font-weight: bold;
-    word-break:break-all;
+    overflow: auto;
 }
