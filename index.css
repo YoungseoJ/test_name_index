@@ -3,6 +3,7 @@
     position: relative;
     width: 100vw;
     height: 100vh;
+    word-break:break-all;
 }
 
 .intro-wrap::after {          
@@ -15,20 +16,21 @@
     background: darkgreen;
     opacity: 0.2;
     z-index: -1;
+    word-break:break-all;
 }
 
 .intro {
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-
+    word-break:break-all;
   }
 
 .intro-story {
     font-size: 1.5em;
     font-weight: bold;
     white-space: pre;
-
+    word-break:break-all;
 }
   
 html, button {
@@ -198,6 +200,7 @@ main {
     position: relative;
     width:100vw;
     height:100vh;
+    word-break:break-all;
 }
   
 .result-wrap::after {
@@ -210,6 +213,7 @@ main {
     background: red;
     opacity: 0.1;
     z-index: -1;
+    word-break:break-all;
 }
 
 .result {
@@ -219,4 +223,5 @@ main {
     white-space: pre;
     font-size: 1.2em;
     font-weight: bold;
+    word-break:break-all;
 }
