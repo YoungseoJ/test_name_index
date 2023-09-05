@@ -1,8 +1,7 @@
 var test = new Vue({
     el: '#test',
     data: {
-      intro: '신체활동 실천 목표 서약서 작성하기
-          click!',
+      intro: '신체활동 실천 목표 서약서 작성하기 click!',
       title: '건강 실천 목표 서약서',        
       currentIndex: 0, // index 에서 이름 변경
       qna: [], // 새로 선언, question[], answer[], selection[] 제거
