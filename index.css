@@ -2,6 +2,8 @@
     display: table;
     position: relative;
     overflow: auto;
+    width: 100vw;
+    height:100vh;
 }
 
 .intro-wrap::after {          
@@ -13,7 +15,7 @@
     opacity: 0.2;
     z-index: -1;
     overflow: auto;
-    width: 100vw;
+    width: 100%;
     height: 100%;
 }
 
@@ -21,14 +23,12 @@
     display: table-cell;
     text-align: center;
     vertical-align: middle;
-    overflow: auto;
   }
 
 .intro-story {
     font-size: 1.5em;
     font-weight: bold;
     white-space: pre;
-    overflow: auto;
 }
   
 html, button {
@@ -120,7 +120,7 @@ body{
 .answer-wrap {
     position: relative;
     width: 100vw;
-    height: 100%;
+    cursor: pointer;
 }
 
 .answer {
@@ -173,12 +173,6 @@ body{
 }
 
 
-main {
-    background: rgb(255, 255, 255);
-    opacity: 1;
-    width: 100vw;
-    height: 100vh;
-}
   
 #main::after {
     content: "";
@@ -198,6 +192,8 @@ main {
     display: table;
     position: relative;
     overflow: auto;
+    width: 100vw;
+    height: 100vh;
 }
   
 .result-wrap::after {
@@ -205,12 +201,11 @@ main {
     position: absolute;
     left: 0;
     top: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     background: red;
     opacity: 0.1;
     z-index: -1;
-    overflow: auto;
 }
 
 .result {
