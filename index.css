@@ -1,8 +1,6 @@
 .intro-wrap {
     display: table;
     position: relative;
-    width: 100vw;
-    height: 100vh;
     overflow: auto;
 }
 
@@ -11,8 +9,6 @@
     position: absolute;
     left: 0;
     top: 0;
-    width: 100vw;
-    height: 100vh;
     background: darkgreen;
     opacity: 0.2;
     z-index: -1;
